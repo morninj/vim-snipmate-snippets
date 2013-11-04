@@ -10,6 +10,9 @@ snippet sss
 # Paragraph
 snippet p
 	\paragraph{${1}}${2}
+# Small caps
+snippet sc
+	\textsc{${1}}${2}
 # TODO
 snippet t
 	% TODO 
@@ -51,8 +54,9 @@ snippet case
 	${3}
 
 ###
+snippet cb 
+	Casebook p. ${1}
 
-# \begin{}...\end{}
 snippet begin
 	\begin{${1:env}}
 		${2}
